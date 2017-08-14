@@ -19,7 +19,7 @@ Prerequisites
 	- virtualenv -> From cmd line type: pip install virtualenv
 	- flask  (0.12.2 preferred) -> From cmd line type: pip install Flask 
                               (or go to http://flask.pocoo.org/docs/0.12/installation/#installation)
-    - wtforms -> From cmd line type: -> pip install wtforms
+	- wtforms -> From cmd line type: -> pip install wtforms
 
 Instructions:
 	From cmd:
@@ -39,8 +39,14 @@ Instructions:
 	4.- Run the application
 		Windows/Linux: 
 			$ flask run
-	5.- Go to http://127.0.0.1:5000/ in a browser 
+	5.- Go to http://127.0.0.1:5000/ from a browser 
 	6.- All set, you can now compare json data!
+
+Future releases features:
+1.1   - Add a json data generator from a url or a file. Data can be use
+        to test the application.
+1.2   - Provide more insight into the differences.
+	  - Provide more insight into the format of an incorrect json data input   
 
 Author
 	Salvador Jiménez Noriega - nojiso@gmail.com
