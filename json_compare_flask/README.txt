@@ -19,20 +19,29 @@ Prerequisites
 	- virtualenv -> From cmd line type: pip install virtualenv
 	- flask  (0.12.2 preferred) -> From cmd line type: pip install Flask 
                               (or go to http://flask.pocoo.org/docs/0.12/installation/#installation)
+    - wtforms -> From cmd line type: -> pip install wtforms
 
-Instructions(for Windows):
+Instructions:
 	From cmd:
-	1.- Go to the project folder(previously downloaded): 
-		$ cd C:\Documents\json_compare_flask
+	1.- Go to the project folder(previously downloaded):
+		Windows/Linux: 
+			$ cd C:\<project>\<folder>\<path>\json_compare_flask
 	2.- Activate venv:
-		$ venv\Scripts\activate
+		Windows:
+			$ venv\Scripts\activate
+		Linux:
+			$ chmod +x venv\Scripts\activate
 	3.- Export FLASK_APP environment variable:
-		$ set FLASK_APP=hello.py
+		Windows:
+			$ set FLASK_APP=hello.py
+		Linux:
+			$ export FLASK_APP=hello.py
 	4.- Run the application
-		$ flask run
+		Windows/Linux: 
+			$ flask run
 	5.- Go to http://127.0.0.1:5000/ in a browser 
-	6.- All set, you can no compare json data!
+	6.- All set, you can now compare json data!
 
 Author
-	Salvador Jiménez Noreiga - nojiso@gmail.com
+	Salvador Jiménez Noriega - nojiso@gmail.com
 

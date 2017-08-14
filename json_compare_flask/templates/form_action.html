@@ -1,10 +1,5 @@
  <html>
     <head>
-    <script>
-	function goBack() {
-    window.history.back()
-	}
-	</script>
         <title>Comparison Results</title>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
     </head>
@@ -14,14 +9,20 @@
             <div class="title">
                 <h1>COMPARISON RESULTS</h1>
             </div>
-            <div id="content">         
+            <div id="content">     
 			    <pre>
 				<code>
 					<strong>{{result}}</strong>
 				</code>
 				</pre>
-			<form>
-			<input type="submit" onclick="goBack()" class="compare" value="Go Back" />
+			
+			<form method="post" action="{{ url_for('form') }}">
+				<script>
+				function goBack() {
+    			window.history.back();
+				}
+				</script>
+				<input type="button" onclick="goBack()" value= "Go Back"/>
 			</form>
             </div>
         </div>
