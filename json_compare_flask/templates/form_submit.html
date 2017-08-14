@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Compare 2 JSONS</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+        
+            <div class="title">
+                <h1>Compare 2 JSONS</h1>
+            </div>
+            <div id="content">
+                <form method="post" action="{{ url_for('action') }}">
+                  <label for="json1"><strong>Please enter the first JSON data:</strong></label>
+                  <textarea rows="13" cols="150" name="json1"></textarea>
+                  <br>
+                  <label for="json2"><strong>Please enter the second JSON data:</strong></label>
+                  <textarea rows="13" cols="150" name="json2"></textarea>
+                  <br>
+                  <input type="submit" class="compare" value="COMPARE" />
+                </form>
+            </div>        
+    </body>
+</html>
+ 
