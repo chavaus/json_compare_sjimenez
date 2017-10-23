@@ -3,6 +3,7 @@ JSON COMPARE TOOL
 
 Version:
 1.0 - 12/08/2017
+1.2 - to test git
 
 What is included in the project?
 	- hello.py: Integrates the json_compare functionality into a web interface. Runs the web service.
@@ -49,5 +50,5 @@ Future releases features:
 	  - Provide more insight into the format of an incorrect json data input   
 
 Author
-	Salvador Jiménez Noriega - nojiso@gmail.com
+	Salvador Jimï¿½nez Noriega - nojiso@gmail.com
 
